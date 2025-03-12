@@ -2,39 +2,46 @@ body {
     background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-theme-knitting-with-cute-knitter-girls-doodle-style_68162-1168.jpg?w=1480);
     background-size:130vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
     font-family: Big Shoulders Stencil;
-    font-size:30px;
+    font-size:25px;
   }
 
   .card {
-    background: white;
     padding: 1em;
     border-radius: 4em;
-    max-width: 500px;
-    background: rgba(204, 204, 204, 0.5);
-    align-items: center;
+    width: 50em;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-left: 80px;
   }
 
   .profile-photo {
     height: 50%;
-    width:50%;
+    width:48%;
     border-radius: 4em;
+    align-items: center;
+    /* margin-left: 200px; */
+    margin-bottom: 10px;
   }
 
   .alignment {
     display: flex;
     flex-direction: row;
-    border-radius: 4em;
-    height: 30%;
   }
 
   .sketch {
-    height: 10%;
-    width:30%;
-    margin: 1em;
+    height:50%;
+    width:50%;
+    margin: 1rem;
+    border-radius: 4rem;
+    margin-left: 50px;
+  }
+
+  h1, h2 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border-radius: 4em;
-    margin-left: 15em;
+    /* margin-left: 200px; */
   }
