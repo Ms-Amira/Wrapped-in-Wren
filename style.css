@@ -1,7 +1,6 @@
 body {
     background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-theme-knitting-with-cute-knitter-girls-doodle-style_68162-1168.jpg?w=1480);
     background-size:130vh;
-    display: flex;
     justify-content: center;
     text-align: center;
     font-family: Big Shoulders Stencil;
@@ -22,7 +21,6 @@ body {
     width:48%;
     border-radius: 4em;
     align-items: center;
-    /* margin-left: 200px; */
     margin-bottom: 10px;
   }
 
@@ -43,5 +41,10 @@ body {
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     border-radius: 4em;
-    /* margin-left: 200px; */
+  }
+
+  footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: inline-block;
   }
